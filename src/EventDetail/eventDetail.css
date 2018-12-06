@@ -1,4 +1,59 @@
-.eventDetail {
+.event-detail {
 	display: flex;
 	justify-content: space-between;
+	border-bottom: 1px solid #E0DEDB;
+	padding: 15px 0;
+	margin: 0 20px;
+}
+
+.event-detail:first-child {
+	background: red;
+}
+
+#border-fade {
+	height: 5px;
+	border-bottom: 1px solid #E0DEDB;
+	background: linear-gradient(180deg, #031A66 0%, rgba(3,26,102,0) 100%);
+	opacity: 0.05;
+}
+
+.event-time {
+	color: #4C4E55;
+	margin-bottom: 10px;
+}
+
+.event-address {
+	color: #489998;
+}
+
+button {
+	padding: 5px 12px;
+	border-radius: 14.5px;
+	border: none;
+}
+
+.full-event, .full-event .event-address {
+	color: #9FA0A4;
+}
+
+.full-event .event-time {
+	text-decoration: line-through;
+}
+
+.full-event button {
+	color: #9FA0A4;
+	background: #E0DEDB;
+	opacity: 0.46;
+}
+
+.available-button {
+	color: #489998;
+	background: #DEF2F2;
+	font-weight: bold;
+}
+
+.signed-up-button {
+	color: #031A66;
+	border: 1px solid #DEF2F2;
+	margin: 5px 22px;
 }

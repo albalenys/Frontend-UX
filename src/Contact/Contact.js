@@ -4,7 +4,7 @@ import './contact.css';
 
 const Contact = ({name}) => (
   <header id="contact">
-    Contact<br/>
+    <b>Contact</b><br/>
     {name}
   </header>
 );
