@@ -1,17 +1,6 @@
-.event-container:first-child .event-detail{
-	margin: 0;
-	padding: 15px 20px;
-}
+/* Events */
 
-.event-container:first-child::after {
-	height: 10px;
-	content: "";
-	display: block;
-	background: linear-gradient(180deg, #031A66 0%, rgba(3,26,102,0) 100%);
-	opacity: 0.05;
-}
-
-.event-detail {
+.event-details {
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 1px solid #E0DEDB;
@@ -28,11 +17,8 @@
 	color: #489998;
 }
 
-button {
-	padding: 5px 12px;
-	border-radius: 14.5px;
-	border: none;
-}
+
+/* Full Events */
 
 .full-event .event-time,
 .full-event .event-address {
@@ -43,13 +29,38 @@ button {
 	text-decoration: line-through;
 }
 
-.full-event button {
+
+/* Primary Event */
+
+.event-container:first-child .event-detail {
+	margin: 0;
+	padding: 15px 20px;
+}
+
+.event-container:first-child::after {
+	height: 10px;
+	content: "";
+	display: block;
+	background: linear-gradient(180deg, #031A66 0%, rgba(3,26,102,0) 100%);
+	opacity: 0.05;
+}
+
+
+/* Buttons */
+
+button {
+	padding: 5px 12px;
+	border-radius: 14.5px;
+	border: none;
+}
+
+.full-event-button {
 	color: #9FA0A4;
 	background: #E0DEDB;
 	opacity: 0.46;
 }
 
-.available-button {
+.open-event-button {
 	color: #489998;
 	background: #DEF2F2;
 	font-weight: bold;

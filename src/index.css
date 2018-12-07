@@ -3,5 +3,9 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #FAFBFC
+  background: #FAFBFC;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 0.04px;
 }

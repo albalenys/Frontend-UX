@@ -17,15 +17,15 @@ const EventDetail = ({
 		switch(status) {
 			case 'full':
 				text = 'This event is full';
-				className = '';
+				className = 'full-event-button';
 				break;
 			case 'signedUp':
 				text = <span>&#10003; Signed up</span>;
 				className = 'signed-up-button';
 				break;
-			case 'available':
+			case 'open':
 				text = "I'd like to attend!";
-				className = 'available-button';
+				className = 'open-event-button';
 		}
 
 		return (
@@ -39,9 +39,9 @@ const EventDetail = ({
 
   return (
   	<div className="event-container">
-	  	<div className={`event-detail ${fullEventClass}`}>
+	  	<div className={`event-details ${fullEventClass}`}>
 		  	<div>
-			  	<div className={"event-time"}>
+			  	<div className="event-time">
 			  		<b>{date}</b><br/>
 			  		{time}
 					</div>

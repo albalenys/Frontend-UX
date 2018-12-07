@@ -4,7 +4,7 @@ const events = [{
 	time: "5:00pm - 6:00pm",
 	streetAddress: "50 West Washington",
 	cityState: "Chicago, IL",
-	status: "available"
+	status: "open"
 },
 {
 	id: 2,
@@ -28,7 +28,7 @@ const events = [{
 	time: "5:00pm - 6:00pm",
 	streetAddress: "240 E. Huron",
 	cityState: "Chicago, IL",
-	status: "available"
+	status: "open"
 }];
 
 export default events;
