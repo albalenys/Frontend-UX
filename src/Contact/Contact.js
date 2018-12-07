@@ -3,10 +3,13 @@ import PropTypes from 'prop-types';
 import './contact.css';
 
 const Contact = ({name}) => (
-  <header id="contact">
-    <b>Contact</b><br/>
-    {name}
-  </header>
+  <div id="contact">
+  	<div id="contactPic"/>
+    <div>
+    	<b>Contact</b><br/>
+    	{name}
+    </div>
+  </div>
 );
 
 Contact.propTypes = {
