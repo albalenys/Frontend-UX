@@ -32,17 +32,17 @@
 
 /* Primary Event */
 
-.event-container:first-child .event-detail {
-	margin: 0;
-	padding: 15px 20px;
-}
-
 .event-container:first-child::after {
 	height: 10px;
 	content: "";
 	display: block;
 	background: linear-gradient(180deg, #031A66 0%, rgba(3,26,102,0) 100%);
 	opacity: 0.05;
+}
+
+.event-container:first-child .event-details {
+	margin: 0;
+	padding: 15px 20px;
 }
 
 
