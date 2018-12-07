@@ -1,6 +1,17 @@
 #contact {
+	display: flex;
 	border-bottom: 1px solid #DEF2F2;
 	color: #42444A;
 	font-size: 14px;
 	line-height: 21px;
+	margin: 0 20px;
+	padding: 20px 0;
+}
+
+#contactPic {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #489998;
+	margin-right: 10px;
 }
