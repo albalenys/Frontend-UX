@@ -1,20 +1,22 @@
+.event-container:first-child .event-detail{
+	margin: 0;
+	padding: 15px 20px;
+}
+
+.event-container:first-child::after {
+	height: 10px;
+	content: "";
+	display: block;
+	background: linear-gradient(180deg, #031A66 0%, rgba(3,26,102,0) 100%);
+	opacity: 0.05;
+}
+
 .event-detail {
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 1px solid #E0DEDB;
 	padding: 15px 0;
 	margin: 0 20px;
-}
-
-.event-detail:first-child {
-	background: red;
-}
-
-#border-fade {
-	height: 5px;
-	border-bottom: 1px solid #E0DEDB;
-	background: linear-gradient(180deg, #031A66 0%, rgba(3,26,102,0) 100%);
-	opacity: 0.05;
 }
 
 .event-time {
@@ -32,7 +34,8 @@ button {
 	border: none;
 }
 
-.full-event, .full-event .event-address {
+.full-event .event-time,
+.full-event .event-address {
 	color: #9FA0A4;
 }
 
@@ -55,5 +58,4 @@ button {
 .signed-up-button {
 	color: #031A66;
 	border: 1px solid #DEF2F2;
-	margin: 5px 22px;
 }

@@ -35,11 +35,10 @@ const EventDetail = ({
 		);
 	};
 
-	let borderFadeClass = (id === 1) ? 'border-fade' : '';
 	let fullEventClass = (status === 'full') ? 'full-event' : '';
 
   return (
-  	<div>
+  	<div className="event-container">
 	  	<div className={`event-detail ${fullEventClass}`}>
 		  	<div>
 			  	<div className={"event-time"}>
@@ -55,9 +54,7 @@ const EventDetail = ({
 					{displayButton()}
 				</div>
 		  </div>
-		  <div id={borderFadeClass}>
-		  </div>
-	  </div>
+		 </div>
 	);
 };
 
